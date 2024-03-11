@@ -6,10 +6,12 @@ body {
     box-sizing: border-box;
 }
 
-body.bodyc {
-    background-color: #f8f8f8;
+.bodyc {
+   
     color: #333;
     line-height: 1.6;
+    background-image: url("blur3.jpg")
+  
 }
 
 
@@ -114,6 +116,11 @@ body.bodyc {
 
 }
 
+strong:hover{
+
+    color: #000000;
+
+}
 .div1 i {
     font-size: 1.2em;
 }
@@ -125,7 +132,7 @@ body.bodyc {
 
 
 Section {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .float,
@@ -138,8 +145,10 @@ Section {
     word-spacing: normal;
     padding: 10px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-    color: #3498db;
-    background-color: #fff;
+    color: #040505;
+    background-color: #78292a;
+   border-color: #0b1019;
+   border-radius: 10px;
     transition: .5s, color .10s, background-color .10s;
     -webkit-transition: .5s, color .10s, background-color .10s;
     -moz-transition: .5s, color .10s, background-color .10s;
@@ -215,23 +224,117 @@ pre{
 }
 
 .ul{
-
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
    display: flex;
-   padding: 5px;
-  gap: 40rem;
-
-   margin-right: 20px;
+   padding: 10px;
+   
+   box-shadow: 0 8px 8px 0 #bebbbc, 0 8px 8px 0 #adadab;
+   transform: translate(0px, 5px);
+   -webkit-transform: translate(0px, 5px);
+   -moz-transform: translate(0px, 5px);
+   border-radius: 10px;
+   padding: 10px;
+    
+    text-decoration: none;
 }
 
 ul:hover {
    
+    
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    
     color: #ffffff;
-    background-color: #502d2d;
+    background-color: #24574b;
     box-shadow: 0 8px 8px 0 #bebbbc, 0 8px 8px 0 #adadab;
     transform: translate(0px, 5px);
     -webkit-transform: translate(0px, 5px);
     -moz-transform: translate(0px, 5px);
-    border-radius: 10px;}
+    border-radius: 10px;
+    padding: 10px;
+
+    strong{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #0b1019;
+        font-family: Georgia, 'Times New Roman', Times, serif
+        ;
+       font-weight:bold
+    }
+}
+
+
+
+
+#rightsection {
+    float: right;
+    width: 66%;
+   
+}
+
+
+#leftsection {
+    margin-top: 10px;
+    margin-left: 10px;
+   
+    float: left;
+    width: 32%;
+    border-radius: 9px;
+   
+    background-color: #c4b837;
+    position:sticky;
+   
+}
+
+
+#ico{
+    color: #3498db;
+   font-size: 30px;
+   border-radius: 20px;
+    
+}
+#profileicon{
+  
+    font-size: 5px;
+}
+
+#iconcontainer{
+   background-color: #d0c1c1;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+
+#socialh2{
+    background-color: #515253;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#iconblock{
+   
+    font-weight: bold;
+    border-radius: 30px;
+    color: #24574b;
+    
+}
+
+#subject{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4%;
+}
+
+i:hover{
+    animation-name: surprise;
+        -webkit-animation-name: surprise;
+        -moz-animation-name: surprise;
+    animation-duration: .8s;
+        -webkit-animation-duration: .8s;
+        -moz-animation-duration: .8s;
+}
